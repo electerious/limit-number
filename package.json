@@ -1,0 +1,39 @@
+{
+  "name": "limit-number",
+  "version": "0.0.1",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "Limit a number between a min and max value",
+  "main": "src/index.js",
+  "keywords": [
+    "number",
+    "integer",
+    "int",
+    "min",
+    "max",
+    "limit",
+    "between",
+    "minimum",
+    "maximum"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/limit-number",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/limit-number.git"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "test": "istanbul cover _mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.0"
+  }
+}
