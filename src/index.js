@@ -1,6 +1,6 @@
 'use strict'
 
-/*
+/**
  * Limits a number between a min and max value.
  * @public
  * @param {Number} min - Min number.
