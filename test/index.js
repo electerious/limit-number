@@ -1,7 +1,7 @@
 'use strict'
 
 const assert = require('chai').assert
-const limit  = require('./../src/index')
+const index  = require('./../src/index')
 
 describe('index()', function() {
 
@@ -11,7 +11,7 @@ describe('index()', function() {
 		const max = 10
 		const num = 5
 
-		assert.strictEqual(limit(min, max, num), num)
+		assert.strictEqual(index(min, max, num), num)
 
 	})
 
@@ -21,7 +21,7 @@ describe('index()', function() {
 		const max = 10
 		const num = 15
 
-		assert.strictEqual(limit(min, max, num), max)
+		assert.strictEqual(index(min, max, num), max)
 
 	})
 
@@ -31,7 +31,7 @@ describe('index()', function() {
 		const max = 10
 		const num = -5
 
-		assert.strictEqual(limit(min, max, num), min)
+		assert.strictEqual(index(min, max, num), min)
 
 	})
 
@@ -41,7 +41,7 @@ describe('index()', function() {
 		const max = -5
 		const num = -10
 
-		assert.strictEqual(limit(min, max, num), num)
+		assert.strictEqual(index(min, max, num), num)
 
 	})
 
@@ -51,7 +51,7 @@ describe('index()', function() {
 		const max = 10.5
 		const num = 15
 
-		assert.strictEqual(limit(min, max, num), max)
+		assert.strictEqual(index(min, max, num), max)
 
 	})
 
@@ -61,7 +61,7 @@ describe('index()', function() {
 		const max = 10.5
 		const num = -5
 
-		assert.strictEqual(limit(min, max, num), min)
+		assert.strictEqual(index(min, max, num), min)
 
 	})
 
