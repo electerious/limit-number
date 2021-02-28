@@ -1,6 +1,6 @@
 # limit-number
 
-[![Travis Build Status](https://travis-ci.org/electerious/limit-number.svg?branch=master)](https://travis-ci.org/electerious/limit-number) [![Coverage Status](https://coveralls.io/repos/github/electerious/limit-number/badge.svg?branch=master)](https://coveralls.io/github/electerious/limit-number?branch=master) [![Dependencies](https://david-dm.org/electerious/limit-number.svg)](https://david-dm.org/electerious/limit-number#info=dependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/electerious/limit-number.svg)](https://greenkeeper.io/)
+![Build](https://github.com/electerious/limit-number/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/electerious/limit-number/badge.svg?branch=master)](https://coveralls.io/github/electerious/limit-number?branch=master)
 
 Limit a number between a min and max value.
 
